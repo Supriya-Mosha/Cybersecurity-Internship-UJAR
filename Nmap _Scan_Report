@@ -1,0 +1,27 @@
+##Nmap Scan Report
+Overview
+This project shows how to use Nmap to scan a target, find open ports, detect services, check the OS, and gather security information.
+Target used: demo.testfire.net
+
+Commands Used
+Ping Scan: nmap -sn target
+
+TCP SYN Scan: nmap -sS target
+
+Version Detection: nmap -sV target
+
+OS Detection: nmap -O target
+
+Full Port Scan: nmap -p- target
+
+Key Results
+Target is live.
+
+Several open ports with services identified.
+
+Service versions and OS were detected.
+
+Full scan confirmed no missed ports.
+
+Conclusion
+Nmap is useful for checking network devices, services, and security gaps. Always scan only systems you have permission to test.
